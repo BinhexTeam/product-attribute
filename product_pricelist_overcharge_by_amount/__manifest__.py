@@ -8,7 +8,7 @@
     "website": "https://github.com/OCA/product-attribute",
     "author": "Binhex, Odoo Community Association (OCA)",
     "license": "AGPL-3",
-    "depends": ["product"],
+    "depends": ["product", "product_pricelist_supplierinfo"],
     "data": [
         "security/ir.model.access.csv",
         "views/product_pricelist_item_views.xml",
